@@ -3,32 +3,150 @@
 # AI Sloppy Joe Produced
 
 
-# Table of Contents
+# # Discourse Guide Book — Table of Contents
 
-1. [Discourse Guide Book](#discourse-guide-book)
-2. [AI Sloppy Joe Produced](#ai-sloppy-joe-produced)
-3. [Discourse Codebase Manual](#discourse-codebase-manual)
-    - [Chapter 1: Introduction to Discourse](#chapter-1-introduction-to-discourse)
-        - [What is Discourse?](#what-is-discourse)
-        - [Objectives of Discourse](#objectives-of-discourse)
-        - [Applications and Use Cases](#applications-and-use-cases)
-        - [Discourse Design Philosophy](#discourse-design-philosophy)
-            - [Community-Centric](#community-centric)
-            - [Modern Technology Stack](#modern-technology-stack)
-        - [High-Level Architecture Overview](#high-level-architecture-overview)
-    - [Chapter 2: Codebase Overview](#chapter-2-codebase-overview)
-        - [Directory Structure](#directory-structure)
-        - [Directory Organization](#directory-organization)
-        - [Language Composition](#language-composition)
-        - [Documentation Organization](#documentation-organization)
-        - [Development Guidelines](#development-guidelines)
-    - [Chapter 3: Backend System](#chapter-3-backend-system)
-        - [Service-Oriented Architecture](#service-oriented-architecture)
-        - [Key Backend Components](#key-backend-components)
-        - [APIs in Discourse](#apis-in-discourse)
-            - [Background Jobs](#background-jobs)
-            - [Extensions](#extensions)
-            - [Backend Workflows](#backend-workflows)
+---
+
+## Front Matter
+- Title Page  
+- Preface  
+- About This Manual  
+- How to Use This Guide  
+
+---
+
+## Chapter 1 — Introduction to Discourse
+1.1 What is Discourse?  
+1.2 Objectives of Discourse  
+1.3 Applications and Use Cases  
+1.4 Discourse Design Philosophy  
+ 1.4.1 Community-Centric Design  
+ 1.4.2 Modern Technology Stack  
+1.5 High-Level Architecture Overview  
+ 1.5.1 Frontend System  
+ 1.5.2 Backend System  
+ 1.5.3 Customization Layer  
+ 1.5.4 Database  
+ 1.5.5 Testing Ecosystem  
+
+---
+
+## Chapter 2 — Codebase Overview
+2.1 Directory Structure  
+2.2 Directory Organization  
+ 2.2.1 Frontend ↔ Backend Communication  
+ 2.2.2 Plugin Integration  
+ 2.2.3 Theme Integration  
+2.3 Language Composition  
+2.4 Documentation Organization  
+ 2.4.1 Code Internals  
+ 2.4.2 Themes & Components  
+ 2.4.3 Markdown Extensions  
+ 2.4.4 Development Tools  
+2.5 Development Guidelines  
+ 2.5.1 Coding Standards  
+ 2.5.2 Tooling  
+ 2.5.3 Testing  
+
+---
+
+## Chapter 3 — Backend System
+3.1 Service-Oriented Architecture  
+3.2 Key Backend Components  
+ 3.2.1 Controllers  
+ 3.2.2 Models  
+3.3 APIs in Discourse  
+3.4 Background Jobs  
+3.5 Extensions  
+3.6 Backend Workflows  
+ 3.6.1 Request Processing  
+ 3.6.2 User Authentication  
+ 3.6.3 Post Management  
+3.7 Testing Strategy  
+
+---
+
+## Chapter 4 — Frontend System
+4.1 Technology Stack  
+4.2 Component-Based Architecture  
+ 4.2.1 Component Categories  
+ 4.2.2 Key Components  
+4.3 Frontend-Backend Communication  
+4.4 Theme and CSS Management  
+ 4.4.1 SCSS Organization  
+ 4.4.2 Theming Support  
+4.5 Frontend Workflows  
+ 4.5.1 Rendering with Ember.js  
+ 4.5.2 Markdown Rendering  
+4.6 Testing Strategy  
+
+---
+
+## Chapter 5 — Markdown Rendering
+5.1 Introduction to Markdown in Discourse  
+5.2 The Markdown-It Engine  
+5.3 Custom Markdown Rules  
+5.4 Markdown Transformation Workflow  
+5.5 Markdown Enhancement Examples  
+5.6 Customization of Markdown  
+5.7 Markdown Testing  
+
+---
+
+## Chapter 6 — Themes and Customizations
+6.1 Overview of Themes  
+6.2 Theme Structure  
+6.3 Uploading and Managing Themes  
+ 6.3.1 Upload via Tarball  
+ 6.3.2 Install via Git Repository  
+6.4 Creating a Custom Theme  
+6.5 Theme Components  
+6.6 Securing Themes and Customizations  
+6.7 Testing Themes  
+
+---
+
+## Chapter 7 — Plugins and Extensibility
+7.1 Overview of Plugins  
+7.2 Plugin Architecture and Hooks  
+ 7.2.1 Server-Side Hooks  
+ 7.2.2 Client-Side Hooks  
+ 7.2.3 Event Hooks  
+7.3 Plugin Structure  
+7.4 Creating a Plugin  
+7.5 Common Plugin Examples  
+ 7.5.1 Official Plugins  
+ 7.5.2 Community Plugins  
+7.6 Plugin Development Best Practices  
+7.7 Plugin Testing and Debugging  
+
+---
+
+## Chapter 8 — Performance Optimization
+8.1 Backend Performance Optimization  
+ 8.1.1 Database Indexing  
+ 8.1.2 Caching  
+ 8.1.3 Background Jobs  
+ 8.1.4 Query Optimization  
+ 8.1.5 Multithreading  
+8.2 Frontend Performance Optimization  
+ 8.2.1 Asset Bundling & Minification  
+ 8.2.2 Lazy Loading  
+
+---
+
+## Appendices
+A. Recommended Development Tools  
+B. Testing Cheat Sheet  
+C. Directory Reference Quick Index  
+D. Glossary of Terms  
+
+---
+
+## Credits
+- Creator of Discourse: Jeff Atwood  
+- Co-founder of Stack Overflow
+
 
 
 # Discourse Codebase Manual
