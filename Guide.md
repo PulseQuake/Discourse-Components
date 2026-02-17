@@ -260,6 +260,9 @@ get '/latest' => 'list#latest'
 
 This maps to the list controller and its latest action.
 
+```
+
+
 3.4 Background Jobs (`app/jobs/`)
 
 To handle asynchronous operations like sending notifications or processing uploads, Discourse supports background jobs using ActiveJob. These are executed using a job queue, ensuring non-blocking performance.
@@ -331,7 +334,7 @@ Discourse uses RSpec for backend testing. Tests are organized in the spec/ direc
 
 By writing comprehensive tests, Discourse ensures that its backend is robust and reliable.
 
-```
+
 
 
 
