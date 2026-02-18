@@ -1,0 +1,193 @@
+# Book Author Writing System
+
+A professional Git-powered manuscript environment designed specifically for book authors.
+
+---
+
+## Purpose
+
+This repository organizes the entire book creation process:
+
+- drafting
+- structuring
+- editing
+- revising
+- compiling
+- publishing
+
+---
+
+## Folder Structure
+
+```
+manuscript/
+    chapters/
+    front-matter/
+    back-matter/
+
+characters/
+worldbuilding/
+notes/
+drafts/
+edits/
+published/
+assets/
+```
+
+---
+
+## Writing Pipeline
+
+```
+Notes → Draft → Chapter → Edit → Publish
+```
+
+---
+
+## Folder Roles
+
+| Folder | Function |
+|------|--------|
+drafts | messy writing |
+chapters | real manuscript |
+notes | random ideas |
+edits | revision passes |
+characters | character profiles |
+worldbuilding | lore + rules |
+published | final versions |
+
+---
+
+## Chapter Naming
+
+Always number chapters:
+
+```
+01-beginning.md
+02-conflict.md
+03-twist.md
+```
+
+Ensures correct order when compiling book.
+
+---
+
+## Automated Book Builder
+
+When pushing to main branch:
+
+GitHub automatically:
+
+- combines chapters
+- compiles manuscript
+- exports PDF
+
+No manual formatting required.
+
+---
+
+## Templates Included
+
+- chapter template
+- scene template
+- revision log template
+
+Usage:
+
+```
+copy template → rename → write
+```
+
+---
+
+## Revision System
+
+Each edit pass goes into:
+
+```
+/edits
+```
+
+Example:
+
+```
+draft-v1.md
+draft-v2.md
+draft-v3.md
+```
+
+You now have a complete history of your book’s evolution.
+
+---
+
+## Professional Author Workflow
+
+Separate mental modes:
+
+| Mode | Folder |
+|------|------|
+idea brain | notes |
+creative brain | drafts |
+author brain | chapters |
+editor brain | edits |
+publisher brain | published |
+
+---
+
+## Writing Rule
+
+Never edit while drafting.
+
+Drafting = speed  
+Editing = precision  
+
+The repository enforces that separation.
+
+---
+
+## Philosophy
+
+This system treats your book like software:
+
+- versioned
+- structured
+- recoverable
+- reproducible
+
+---
+
+## Result
+
+You gain:
+
+- full revision history
+- organized manuscript
+- automated publishing
+- zero lost drafts
+- structured creativity
+
+---
+
+## Recommended Tools
+
+- VSCode
+- Markdown Preview
+- Git
+
+Optional:
+
+- Obsidian for idea capture
+
+---
+
+## Final Principle
+
+You are not writing a book.
+
+You are building a literary system.
+
+---
+
+## License
+
+Add preferred license.
