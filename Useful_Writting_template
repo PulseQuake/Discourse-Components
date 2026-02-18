@@ -1,0 +1,162 @@
+# Pro Writing System
+
+A professional Markdown-first writing infrastructure for authors, developers, researchers, and documentation teams.
+
+---
+
+## Overview
+
+This repository is a full writing operating system powered by:
+
+- Markdown
+- Git version control
+- Automation workflows
+- Structured templates
+- Publishing pipelines
+
+It is designed to eliminate friction, enforce structure, and preserve every revision of your writing.
+
+---
+
+## Repository Architecture
+
+```
+.
+├── drafts/
+├── published/
+├── research/
+├── templates/
+├── assets/
+├── archive/
+├── automation/
+└── .github/workflows/
+```
+
+---
+
+## Writing Workflow
+
+```
+Idea → Draft → Edit → Review → Publish → Archive
+```
+
+### Steps
+
+1. Create draft file in `/drafts`
+2. Write content
+3. Commit regularly
+4. Open Pull Request
+5. Automated checks run
+6. Merge → published
+
+---
+
+## File Naming Convention
+
+```
+YYYY-MM-DD-title-slug.md
+```
+
+Example:
+
+```
+2026-02-17-writing-system.md
+```
+
+---
+
+## Templates
+
+Templates eliminate blank-page syndrome.
+
+Available types:
+
+- blog
+- documentation
+- research
+- book chapter
+
+Copy template → rename → write.
+
+---
+
+## Automation Features
+
+GitHub Actions automatically:
+
+- lint markdown
+- check links
+- export PDFs
+- export HTML
+- validate formatting
+
+Runs on pull request or publish.
+
+---
+
+## Branch Strategy
+
+```
+main → published
+draft → active writing
+feature/* → individual documents
+```
+
+Never write directly on main.
+
+---
+
+## Versioning System
+
+Use semantic versioning:
+
+```
+v1.0 → first publish
+v1.1 → edits
+v2.0 → major rewrite
+```
+
+---
+
+## Collaboration Rules
+
+All contributors must:
+
+- use templates
+- follow naming conventions
+- open pull requests
+- follow style guide
+
+---
+
+## Philosophy
+
+This repository is not a folder.
+
+It is a **version-controlled knowledge system**.
+
+---
+
+## Recommended Tools
+
+Local writing environment:
+
+- VSCode
+- Markdown Preview Extension
+- GitHub PR Extension
+
+Optional power stack:
+
+- Obsidian + Git plugin
+
+---
+
+## Goal
+
+Transform writing into an engineering discipline.
+
+---
+
+## License
+
+Add your preferred license.
